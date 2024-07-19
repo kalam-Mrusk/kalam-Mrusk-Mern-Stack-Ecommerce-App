@@ -1,0 +1,32 @@
+.pageMainBodyContainer {
+  display: flex;
+}
+.pageMainBodyContainer .ordersContainer {
+  flex-grow: 2;
+}
+.ordersContainer .sellerOrderTitle {
+  background-color: #fff;
+  position: sticky;
+  text-align: center;
+  padding: 1rem 0rem;
+  top: 45px;
+  z-index: 10;
+}
+.ordersContainer .oderItemDiv {
+  border: 1px solid rgb(119, 118, 118);
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  .pageMainBodyContainer {
+    display: block;
+  }
+  .ordersContainer .oderItemDiv {
+    border: none;
+    width: 100%;
+    margin: 0rem auto;
+    padding: 0rem;
+  }
+}

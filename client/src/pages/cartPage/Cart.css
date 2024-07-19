@@ -1,0 +1,36 @@
+.cartMainContainer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.AllCartProducts {
+  width: 60%;
+}
+.AllCartProducts .carttitle {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.cartBuyingSection {
+  width: 30%;
+  height: 200px;
+  padding: 10px;
+  margin-top: 4.5rem;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.cartBuyingSection p {
+  margin-bottom: 8px;
+}
+.cartBuyingSection button {
+  width: 60%;
+  background-color: rgb(134, 245, 134);
+  padding: 5px 0px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: 1px solid rgb(99, 99, 99);
+}
+.cartBuyingSection button:hover {
+  color: #fff;
+}

@@ -1,0 +1,31 @@
+.ShippingAddressFormContainer {
+  max-width: 100%;
+}
+.ShippingAddressFormContainer .addressFormTitle {
+  margin: 3rem 0rem;
+  text-align: center;
+}
+.ShippingAddressFormContainer .addressForm {
+  min-width: 300px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.ShippingAddressFormContainer .addressForm input {
+  display: block;
+  margin: 15px 0px;
+  padding: 6px 4px;
+  font-size: 16px;
+  color: rgb(48, 48, 220);
+  outline: none;
+  width: 100%;
+}
+.ShippingAddressFormContainer .addressForm button {
+  display: flex;
+  margin: auto;
+  width: 4rem;
+  padding: 4px 2px;
+  /* text-align: center; */
+  justify-content: center;
+  /* align-items: center; */
+}

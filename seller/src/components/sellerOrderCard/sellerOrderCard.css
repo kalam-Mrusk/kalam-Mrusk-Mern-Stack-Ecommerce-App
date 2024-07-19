@@ -1,0 +1,55 @@
+.sellerOrderCardContainer {
+  box-shadow: 0px 0px 8px 0px rgb(170, 169, 169);
+  padding: 0.5rem;
+  margin: 1rem 0rem;
+  background-color: #fca8d5;
+  background-image: linear-gradient(
+    62deg,
+    #fca8d5 0%,
+    #d9b1ff 33%,
+    #9fd1f1 66%,
+    #ffcaca 100%
+  );
+}
+.sellerOrderCardContainer .sellerOrderCardDetail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sellerOrderCardDetail img {
+  width: 200px;
+  height: 160px;
+}
+.sellerOrderCartButton {
+  display: flex;
+  justify-content: end;
+}
+.sellerOrderCartButton button {
+  margin-right: 1rem;
+  padding: 3px 6px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.sellerOrderCartButton .cancelOrder {
+  background-color: rgb(246, 97, 97);
+}
+.sellerOrderCartButton .shipped {
+  background-color: rgb(97, 152, 246);
+}
+.sellerOrderCartButton button:hover {
+  box-shadow: 0px 0px 8px 0px rgb(170, 169, 169);
+}
+@media (max-width: 650px) {
+  .sellerOrderCardContainer {
+    width: 90%;
+    padding: 0.5rem;
+    margin: 1rem auto;
+  }
+  .sellerOrderCardDetail img {
+    width: 120px;
+    height: 90px;
+  }
+  .sellerOrderCardContainer .sellerOrderCardDetail {
+    display: block;
+  }
+}

@@ -1,0 +1,40 @@
+.sellerProductContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 100%;
+}
+.sellerProductContainer .AllproductContainer {
+  /* border: 2px solid green; */
+  flex-grow: 1;
+}
+.AllproductContainer .allSellerProduct {
+  background-color: #fff;
+  position: sticky;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  top: 43px;
+  z-index: 50;
+}
+.productItems {
+  width: 90%;
+  margin: 1rem auto;
+  border: 1px solid;
+  padding: 10px;
+}
+@media (max-width: 600px) {
+  .sellerProductContainer {
+    /* width: 360px; */
+    margin: auto;
+    /* border: 2px solid red; */
+    display: block;
+  }
+
+  .productItems {
+    width: 93%;
+    border: none;
+    padding: 0px;
+    margin: auto;
+    /* margin-left: 0.8rem; */
+  }
+}

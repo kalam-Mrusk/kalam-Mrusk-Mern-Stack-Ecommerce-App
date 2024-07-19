@@ -1,0 +1,38 @@
+.mainContainer {
+  /* border: 2px solid red; */
+  box-shadow: 0px 0px 10px 0px rgb(15, 56, 152);
+  max-width: 500px;
+  padding: 20px;
+  margin: 5rem auto;
+}
+.mainContainer .paymentOptions h3 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.custom-radio {
+  width: 20px;
+  height: 20px;
+  /* transform: scale(1); */
+  margin-right: 10px;
+}
+.label {
+  display: flex;
+  align-items: center;
+}
+
+.mainContainer .buttonContainer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.buttonContainer button {
+  padding: 3px 8px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid rgb(131, 130, 130);
+  border-radius: 5px;
+}
+.buttonContainer button:hover {
+  box-shadow: 0px 0px 8px 0px rgb(171, 170, 170);
+}

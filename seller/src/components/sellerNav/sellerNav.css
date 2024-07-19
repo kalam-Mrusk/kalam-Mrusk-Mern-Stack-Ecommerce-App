@@ -1,0 +1,37 @@
+.navContainer {
+  width: 100%;
+  box-sizing: border-box;
+  position: sticky;
+  /* background-color: rgb(252, 98, 149); */
+  border: 1px solid rgb(56, 56, 57);
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 1.5rem;
+  background-color: #fff;
+  z-index: 100;
+  top: 0;
+}
+.navContainer button {
+  padding: 5px 8px;
+  background-color: rgb(249, 71, 71);
+  border: none;
+  border-radius: 5px;
+}
+.navContainer button:hover {
+  box-shadow: 0px 0px 8px 0px rgb(106, 106, 106);
+}
+
+@media (max-width: 600px) {
+  .navContainer {
+    width: 100vw;
+    padding: 0.3rem 0.5rem;
+  }
+  .navContainer h2 {
+    font-size: 18px;
+  }
+  .navContainer button {
+    padding: 2px 6px;
+  }
+}

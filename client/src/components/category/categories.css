@@ -1,0 +1,31 @@
+.categoryContainer {
+  width: 85%;
+  margin: 16px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.categoryItem {
+  width: 120px;
+  padding: 10px;
+}
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  /* background-color: #0e3e97; */
+  background-color: rgb(252, 98, 149);
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.imgContainer img {
+  width: 110px;
+  height: 100px;
+}
+.ctgTitle h3 {
+  text-align: center;
+  margin-top: 5px;
+}

@@ -1,0 +1,57 @@
+.productBuyingContainer {
+  box-sizing: border-box;
+  max-width: 70%;
+  /* border: 2px solid black; */
+  box-shadow: 0px 0px 6px 0px rgb(171, 171, 171);
+
+  margin: 2.5rem auto;
+  padding: 1rem;
+}
+.productBuyingContainer .orderShippingAddress {
+  box-sizing: border-box;
+
+  border: 1px solid rgb(160, 159, 159);
+  width: 100%;
+  padding: 10px;
+}
+.orderShippingAddress .buttonCont {
+  display: flex;
+  justify-content: end;
+}
+.productBuyingContainer .buyingProductDetailContainer {
+  display: flex;
+  box-sizing: border-box;
+
+  align-items: center;
+  border: 1px solid rgb(160, 159, 159);
+  width: 100%;
+  margin: 10px 0px;
+  justify-content: space-between;
+}
+.buyingProductDetailContainer img {
+  width: 30%;
+  height: 300px;
+}
+.buyingProductDetailContainer .buyingProductInfo {
+  width: 65%;
+}
+.productBuyingContainer .PricingContainer {
+  box-sizing: border-box;
+  border: 1px solid rgb(160, 159, 159);
+  width: 100%;
+  padding: 10px;
+}
+.continueBuying {
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+.productBuyingContainer button {
+  width: 5rem;
+  padding: 5px 0px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 6px 0px rgb(171, 171, 171);
+  font-weight: 600;
+}

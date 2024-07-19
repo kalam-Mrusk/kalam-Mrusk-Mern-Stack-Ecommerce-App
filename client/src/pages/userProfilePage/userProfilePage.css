@@ -1,0 +1,32 @@
+.profile-container {
+  max-width: 400px;
+  margin: 1rem auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #b2f8f8;
+  /* text-align: center; */
+}
+
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-info h2 {
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  margin: 5px 0;
+}
+.shippingAdd {
+  border: 1px solid rgb(93, 92, 92);
+  /* background-color: rgb(241, 220, 193); */
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+.shpTitle {
+  margin-bottom: 1rem;
+  color: rgb(252, 98, 149);
+}

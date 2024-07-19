@@ -1,0 +1,34 @@
+.allProductContainer {
+  max-width: 90%;
+  margin: 3rem auto 1.5rem;
+}
+.allProductContainer .allProductTitle {
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgb(118, 116, 116);
+  padding-bottom: 10px;
+}
+.sortingMainContainer {
+  display: flex;
+  align-items: center;
+  color: rgb(129, 128, 128);
+}
+.sortingButton {
+  display: flex;
+  align-items: center;
+}
+
+.sortingButton button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0;
+  color: rgb(155, 154, 154);
+}
+.allProductContainer .allProductItems {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+}

@@ -1,0 +1,75 @@
+.testimonialMainContainer {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+.testimonialMainContainer .testimonialHeading {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 28px;
+}
+.testimonialMainContainer .testimonialHeading2 {
+  text-align: center;
+  color: grey;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+.TestiCustomer {
+  color: rgb(252, 98, 149);
+}
+.testimonialMainContainer .testimonialContentContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+.testimonialContentContainer .testimonialTextInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 32%;
+}
+
+.testiImgCont {
+  border: 1px solid rgb(122, 122, 122);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-color: rgb(231, 229, 230);
+  margin-bottom: 2rem;
+  color: rgb(106, 105, 105);
+}
+.testimonialTextInfo .testimonialtext {
+  text-align: center;
+  color: rgb(102, 101, 101);
+  word-spacing: 3px;
+}
+.EmptySpan {
+  border: 2px solid red;
+  margin: 2rem auto;
+  width: 40px;
+}
+.testimonialName {
+  color: rgb(102, 101, 101);
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.testimonialWork {
+  color: rgb(133, 131, 131);
+}
+
+@media (max-width: 600px) {
+  .testimonialMainContainer .testimonialContentContainer {
+    display: block;
+  }
+  .testimonialContentContainer .testimonialTextInfo {
+    width: 95%;
+    margin-top: 1rem;
+  }
+}
